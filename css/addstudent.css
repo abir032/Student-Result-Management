@@ -1,0 +1,162 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: black;
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    background: black;
+    text-align: center;
+}
+
+h1 {
+    color: yellowgreen;
+}
+
+h2 {
+    color: white;
+}
+
+.side_bar {
+    width: 20%;
+    height: 170%;
+    background: gray;
+    color: white;
+    float: left;
+}
+
+ul li {
+    padding: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li:hover {
+    background: black;
+    color: white;
+    border-radius: inherit;
+}
+
+.content {
+    height: 170%;
+    background: darkslategray;
+}
+
+.content .add_student {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-top: -100px;
+    margin-left: -94px;
+    width: 40%;
+    height: 40%;
+}
+
+.add_student form {
+    padding: 0 30px;
+}
+
+form .textfield {
+    position: relative;
+    margin: 30px 0;
+}
+
+.textfield input {
+    width: 100%;
+    height: 30px;
+    padding: 0 3px;
+    border-radius: 10px;
+    border: none;
+}
+
+label {
+    position: absolute;
+    margin: 10px;
+    top: -20px;
+    left: -5px;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.submit input {
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    margin: 18px 0;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.select_field {
+    width: 100%;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 0px;
+}
+
+.select_field1 {
+    width: 100%;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+select {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.select_field select {
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.year {
+    color: cornflowerblue;
+    margin-top: -30px;
+    margin-left: 300px;
+}
+
+.year select {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.textfield small {
+    position: absolute;
+    visibility: hidden;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.textfield.error small {
+    color: red;
+    visibility: visible;
+    font-size: 20px;
+    position: relative;
+}
+
+.add_student .success {
+    color: rgb(52, 170, 5);
+    font-size: 20px;
+    font-weight: 700px;
+}
